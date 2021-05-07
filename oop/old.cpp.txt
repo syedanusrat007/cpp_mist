@@ -1,0 +1,13 @@
+using namespace std;
+
+vector<int> myIntVector;
+// Add some elements to myIntVector
+myIntVector.push_back(1);
+myIntVector.push_back(4);
+myIntVector.push_back(8);
+
+for(int y=0; y<myIntVector.size(); y++)
+{
+    cout<<myIntVector[y]<<" ";
+    //Should output 1 4 8
+}
